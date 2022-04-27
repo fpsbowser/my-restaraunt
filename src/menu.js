@@ -62,7 +62,7 @@ const menu = () => {
         container.appendChild(newCard)
 
         const image = document.createElement('img');
-        image.src = `../assets/${item.image}`
+        image.src = `assets/${item.image}`
         image.className = 'pizza-img'
         newCard.appendChild(image)
 
